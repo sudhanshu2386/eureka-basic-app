@@ -1,0 +1,22 @@
+zuul:
+  prefix: /api
+  routes:    drama-service:
+      path: /drama-api/**
+      service-id: DRAMA-SERVICE
+    actor-service:
+      path: /actor-api/**
+      service-id: ACTOR-SERVICE
+    reward-service:
+      path: /reward-api/**
+      service-id: REWARD-SERVICE
+      
+      
+eureka:
+  client:    service-url:      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    
+server:  port: 9111
+  
+spring:  application:    name: zuul-service 
+       

@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "ping-server.ribbon",
+    "type": "java.lang.String",
+    "description": "A description for 'ping-server.ribbon'"
+  },
+  {
+    "name": "admission-service.ribbon",
+    "type": "java.lang.String",
+    "description": "A description for 'admission-service.ribbon'"
+  },
+  {
+    "name": "ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.listOfServers'"
+  },
+  {
+    "name": "ribbon.ServerListRefreshInterval",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.ServerListRefreshInterval'"
+  }
+]}

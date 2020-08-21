@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.listOfServers'"
+  },
+  {
+    "name": "ribbon.ServerListRefreshInterval",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.ServerListRefreshInterval'"
+  },
+  {
+    "name": "drama-serice",
+    "type": "java.lang.String",
+    "description": "A description for 'drama-serice'"
+  }
+]}

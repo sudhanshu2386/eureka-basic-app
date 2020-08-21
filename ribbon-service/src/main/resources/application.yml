@@ -1,0 +1,14 @@
+server:
+  port: 9113
+  
+spring:
+  application:
+    name: ribbon-service
+    
+eureka:  client:    service-url:
+      defaultZone: http://localhost:8761/eureka/    healthcheck:      enabled: true  instance:    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+  
+ribbon-service:   
+ ribbon:   eureka:    enabled: true    listOfServers: localhost:9120, localhost:9115, localhost:9117
+    ServerListRefreshInterval: 1000
